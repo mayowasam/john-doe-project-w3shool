@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0px;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    
+}
+
+.side{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.774);
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    border: none;
+  
+
+   
+}
+
+.sidemenu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.sidemenu li a{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+;
+}
+
+
+li a.active{
+    background-color: black;
+}
+
+
+
+li a:hover{
+    background-color: rgb(216, 21, 21);
+}
+
+.mainpage{
+    background-color: black;
+    width: 90%;
+    float: left;
+    color: white;
+    border: none;
+    margin-left: 10%;
+  
+     
+}
+
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.bad{
+    background-color: black; 
+    width: 100%;
+    color: white;
+
+
+  
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+     
+}
+.con{
+    padding: 8px;
+    text-align: justify;
+
+}
+.box{
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 16px;
+    background-color: white;
+}
+.color1{
+    width: 95%;
+    height: 100%;
+    background-color:#757575 ;
+}
+.color2{
+    width: 85%;
+    height: 100%;
+    background-color:#757575 ;
+}
+.color3{
+    width: 80%;
+    height: 100%;
+    background-color:#757575 ;
+}
+
+
+.board{
+    height: 120px;
+    background-color: white;
+    margin: 30px 0px;
+    
+}
+.limit{
+    padding: 10px;
+    width: 25%;
+    float: left;
+    color:black;
+    text-align: center;
+
+}
+
+
+.btn{
+    border: none;
+    padding: 16px 20px;
+    background-color: white;
+    color: black;
+}
+
+
+.basic{
+    width: 50%;
+    float: left;
+    background-color: grey;
+    border: 10px solid black ;
+    color: black;
+   
+   
+}
+
+.price ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+   
+
+}
+
+.price li {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid black;
+}
+.basic:hover {
+    background-color: white;
+}
+
+.btn2{
+    border: none;
+    padding: 16px 20px;
+    background-color: grey;
+    color:black;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.photos{
+    width: 50%;
+    float: left;
+    border: 10px solid black;
+}
+input[type=text]{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 20px;
+}
+
+.footer{
+    margin: 100px 0px;
+}
